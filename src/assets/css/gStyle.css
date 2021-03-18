@@ -1,0 +1,45 @@
+/* 全局样式修改 */
+body a:hover {
+  color: #3a3f50 !important;
+}
+.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
+  color: #474e60 !important;
+}
+.el-button--primary {
+  background-color: #474d61 !important;
+  border-color: #474d61 !important;
+}
+.el-button--primary:hover {
+  background-color: #555c74 !important;
+  border-color: #555c74 !important;
+}
+
+.el-button.is-disabled {
+  color: #c0c4cc !important;
+}
+.el-button--text {
+  color: #3a3f50 !important;
+}
+.el-tabs--border-card
+  > .el-tabs__header
+  .el-tabs__item:not(.is-disabled):hover {
+  color: #3a3f50 !important;
+}
+.el-tabs--border-card {
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+}
+.el-tabs--border-card > .el-tabs__header {
+  border-radius: 10px 10px 0 0;
+  -webkit-border-radius: 10px 10px 0 0;
+  -o-border-radius: 10px 10px 0 0;
+  -moz-border-radius: 10px 10px 0 0;
+  -ms-border-radius: 10px 10px 0 0;
+}
+.el-notification {
+  width: 380px;
+}

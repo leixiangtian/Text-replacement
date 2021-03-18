@@ -4,9 +4,9 @@
 
 export default new Vuex.Store({
   state: {
-    contents: ``,//检测内容
-    wrongWords: ``,//检测词
-    correctWords: ``,//修正词
+    contents: ``,//检测内容
+    wrongWords: `检测词111\n检测词222\n检测词333\n`,//检测词
+    correctWords: `替换词111\n替换词222\n替换词333\n`,//修正词
     result: [],//检测结果
     keyword: [], //检测词转数组后的数组
     rWords: [], //修正词转数组后的数组

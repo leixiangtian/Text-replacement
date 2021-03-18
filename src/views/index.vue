@@ -3,7 +3,7 @@
     <el-container class="container">
       <!-- 头部 -->
       <el-header class="header">
-        <div>
+        <div class="clear">
           <h1>文本批量替换工具 - 在线多词替换工具</h1>
         </div>
       </el-header>
@@ -107,98 +107,6 @@ export default {
 }
 </script>
 <style lang="scss" scoped>
-html,
-body {
-  background: #fafafa;
-}
-.el-main {
-  height: 100%;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  overflow-y: hidden;
-}
-.header {
-  background: #3a3e51;
-  box-shadow: 0px 0px 10px 5px #ccc;
-  -webkit-box-shadow: 0px 0px 10px 5px #ccc;
-  -ms-box-shadow: 0px 0px 10px 5px #ccc;
-  -moz-box-shadow: 0px 0px 10px 5px #ccc;
-  -o-box-shadow: 0px 0px 10px 5px #ccc;
-  color: #3a3e51;
-  h1 {
-    font-size: 20px;
-    font-weight: bold;
-    color: #fff;
-    float: left;
-    line-height: 60px;
-  }
-}
-.main {
-  // margin: 25px 0 30px;
-  margin-bottom: 30px;
-}
-.footer {
-  // background: #3a3e51;
-  color: #3a3e51ad;
-  padding: 10px 0;
-  // height:15px;
-  text-align: center;
-  & p {
-    line-height: 25px;
-  }
-  @media screen and(max-width:400px) {
-    & p {
-      font-size: 13px;
-      line-height: 20px;
-    }
-  }
-}
-</style>
-<style>
-/* 全局样式修改 */
-body a:hover {
-  color: #3a3f50 !important;
-}
-.el-tabs--border-card > .el-tabs__header .el-tabs__item.is-active {
-  color: #474e60 !important;
-}
-.el-button--primary {
-  background-color: #474d61 !important;
-  border-color: #474d61 !important;
-}
-.el-button--primary:hover {
-  background-color: #555c74 !important;
-  border-color: #555c74 !important;
-}
-
-.el-button.is-disabled {
-  color: #c0c4cc !important;
-}
-.el-button--text {
-  color: #3a3f50 !important;
-}
-.el-tabs--border-card
-  > .el-tabs__header
-  .el-tabs__item:not(.is-disabled):hover {
-  color: #3a3f50 !important;
-}
-.el-tabs--border-card {
-  overflow: hidden;
-  border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -o-border-radius: 10px;
-  -moz-border-radius: 10px;
-  -ms-border-radius: 10px;
-}
-.el-tabs--border-card > .el-tabs__header {
-  border-radius: 10px 10px 0 0;
-  -webkit-border-radius: 10px 10px 0 0;
-  -o-border-radius: 10px 10px 0 0;
-  -moz-border-radius: 10px 10px 0 0;
-  -ms-border-radius: 10px 10px 0 0;
-}
-.el-notification {
-  width: 380px;
-}
+@import "../assets/css/style.scss";
+@import "../assets/css/gStyle.css";
 </style>
