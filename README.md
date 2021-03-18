@@ -1,25 +1,10 @@
-# tt
+# 介绍
 
-## Project setup
-```
-npm install
-```
+开发该项目的初衷是给客户去使用，该工具可以进行文本多词检测与替换的功能
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+###使用场景：
+1、文本内容存在敏感词汇
+2、文本内容需要多词替换
 
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# Text-replacement
+###演示地址
+https://txt.lxtian.com/
