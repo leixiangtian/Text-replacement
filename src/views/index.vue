@@ -63,7 +63,7 @@ export default {
     // 百度自动推送
     loadApi() {
       axios.get('https://api.lxtian.cn/baidu/baidu_api.php').then((res) => {
-        // console.log(res)
+        console.log(res)
       })
     },
     //提示
