@@ -119,7 +119,7 @@ export default {
   },
   destroyed(){
     this.clipboard.destroy()
-    console.log(0)
+    console.log(1)
   }
 }
 </script>
