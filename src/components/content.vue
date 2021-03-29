@@ -118,7 +118,8 @@ export default {
     })
   },
   destroyed(){
-    this.clipboard.destroy() 
+    this.clipboard.destroy()
+    console.log(0)
   }
 }
 </script>
